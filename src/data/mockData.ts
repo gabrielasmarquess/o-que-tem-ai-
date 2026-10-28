@@ -95,6 +95,66 @@ export const initialProducts = [
     category: 'Bebidas',
     availability: true,
     unit: '2L'
+  },
+  {
+    id: '11',
+    name: 'Lasanha Copacol',
+    description: '600g (Sabor variado - deixe preferência na observação)',
+    price: 13.84,
+    image: 'https://th.bing.com/th/id/R.91851cfb5bf348796f4b15c9bd5d769a?rik=WL7G9MvUvg157Q&pid=ImgRaw&r=0',
+    category: 'Frios e laticínios',
+    availability: true,
+    unit: '600g'
+  },
+  {
+    id: '12',
+    name: 'Café Melitta',
+    description: '500g',
+    price: 32.85,
+    image: 'https://images.tcdn.com.br/img/img_prod/1023690/cafe_melitta_tradicional_a_vacuo_500gr_1169_1_0e62fbd7d9aa497161c40f4ed7f2503c.jpg',
+    category: 'Mercearia',
+    availability: true,
+    unit: '500g'
+  },
+  {
+    id: '13',
+    name: 'Água Sanitária Ypê',
+    description: '1 Litro',
+    price: 6.58,
+    image: 'https://tse4.mm.bing.net/th/id/OIP.YiRhCPv2bQv_-UU-RD_ZfQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    category: 'Limpeza',
+    availability: true,
+    unit: 'Litro'
+  },
+  {
+    id: '14',
+    name: 'Detergente Ypê',
+    description: '500ml',
+    price: 4.58,
+    image: 'https://beagaembalagem.com.br/wp-content/uploads/2014/09/detergente-ype-500-ml.jpg',
+    category: 'Limpeza',
+    availability: true,
+    unit: '500ml'
+  },
+  {
+    id: '15',
+    name: 'Pão de forma',
+    description: '400g',
+    price: 10.08,
+    image: 'https://tse4.mm.bing.net/th/id/OIP.HuZzkEmZFUhDWzryMGaYqgAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    category: 'Mercearia',
+    availability: true,
+    unit: '400g'
+  },
+  {
+    id: '16',
+    name: 'Caixa de bombom Garoto',
+    description: '220g',
+    price: 19.08,
+    image: 'https://www.havan.com.br/media/catalog/product/cache/820af7facfa7aca6eb3c138e3457dc8d/c/a/caixa-de-bombom-garoto-sortidos_1242139.jpg',
+    category: 'Doces e chocolates',
+    availability: true,
+    unit: '220g'
   }
 ];
 

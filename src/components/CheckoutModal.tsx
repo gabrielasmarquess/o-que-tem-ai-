@@ -65,8 +65,7 @@ export default function CheckoutModal({ isOpen, onClose }: CheckoutModalProps) {
                 <h3 className="font-bold text-xl text-gray-900">Forma de Pagamento</h3>
                 <select className="border-2 border-gray-300 p-3 rounded-lg w-full bg-white text-gray-900 text-lg" onChange={e => setFormData({...formData, paymentMethod: e.target.value})}>
                     <option value="Pix">Pix</option>
-                    <option value="Cartão de Crédito">Cartão de Crédito</option>
-                    <option value="Dinheiro">Dinheiro</option>
+                    <option value="Cartão de Crédito (via link)">Cartão de Crédito (via link)</option>
                 </select>
                 <div className="flex gap-3 mt-4">
                     <button onClick={() => setStep(1)} className="flex-1 bg-gray-200 text-gray-900 py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-gray-300 transition-colors">Voltar</button>

@@ -15,7 +15,7 @@ export default function Header() {
           <img src={settings.logo} alt={settings.storeName} className="h-10 w-10 sm:h-12 sm:w-12 object-contain rounded-full bg-white p-1" />
           <div>
             <h1 className="text-lg sm:text-xl font-bold text-white leading-tight">{settings.storeName}</h1>
-            <p className="text-xs sm:text-sm text-orange-200">Seu mercadinho, pertinho de você!</p>
+            <p className="text-xs sm:text-sm text-orange-200">O mercadinho que vai até você</p>
           </div>
         </div>
         <div className="flex items-center gap-3">

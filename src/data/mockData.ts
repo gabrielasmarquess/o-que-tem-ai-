@@ -155,7 +155,20 @@ export const initialProducts = [
     category: 'Doces e chocolates',
     availability: true,
     unit: '220g'
-  }
+  },
+  { id: '17', name: 'Batata Ruffles Original', description: '68g', price: 14.10, image: 'https://images.tcdn.com.br/img/img_prod/1148372/ruffles_batata_frita_ondulada_original_68g_a_classica_que_todo_mundo_ama_4238_1_c96717d78d627533fec93fb152cba9ba.jpg', category: 'Biscoitos e salgadinhos', availability: true, unit: '68g' },
+  { id: '18', name: 'Salgadinho Torcida', description: '35g', price: 3.15, image: 'https://tse2.mm.bing.net/th/id/OIP.QIog6S7dnQo0HpdyYq6pcAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Biscoitos e salgadinhos', availability: true, unit: '35g' },
+  { id: '19', name: 'Amendoim Dori', description: '150g', price: 9.22, image: 'https://site.avantatacarejo.com/wp-content/uploads/2024/08/AMENDOIM-TIPO-JAPONES-DORI-150G-1024x1024.jpg', category: 'Biscoitos e salgadinhos', availability: true, unit: '150g' },
+  { id: '20', name: 'Pipoca Microondas Bacon Yoki', description: '100g', price: 8.56, image: 'https://tse2.mm.bing.net/th/id/OIP.exk8oNS4wkTu5Jd-3Ob4AwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Biscoitos e salgadinhos', availability: true, unit: '100g' },
+  { id: '21', name: 'Torrada Integral', description: 'Pacote 142g', price: 7.90, image: 'https://static.paodeacucar.com/img/uploads/1/346/28859346.png', category: 'Mercearia', availability: true, unit: 'pacote' },
+  { id: '22', name: 'Biscoito de Chocolate', description: 'Pacote 140g', price: 5.26, image: 'https://tse3.mm.bing.net/th/id/OIP.IJu9zeMoOKU7PzKk2PorXQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Biscoitos e salgadinhos', availability: true, unit: 'pacote' },
+  { id: '23', name: 'Bolinho de Chocolate', description: 'Unidade', price: 3.33, image: '', category: 'Doces e chocolates', availability: true, unit: 'unidade' },
+  { id: '24', name: 'Chiclete Mentos', description: 'Unidade', price: 4.90, image: 'https://tse1.mm.bing.net/th/id/OIP.GjZN8doL28nNm0XHI9nOkQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Doces e chocolates', availability: true, unit: 'unidade' },
+  { id: '25', name: 'Guaraná Lata (Normal ou Zero)', description: '450ml - Deixe preferência na observação', price: 5.63, image: 'https://www.finafarinha.com.br/wp-content/uploads/2021/03/guarana_normal_2.jpg', category: 'Bebidas', availability: true, unit: '450ml' },
+  { id: '26', name: 'Chá Preto Limão', description: '450ml', price: 6.45, image: 'https://cdn-cosmos.bluesoft.com.br/products/7891098040985', category: 'Bebidas', availability: true, unit: '450ml' },
+  { id: '27', name: 'Nissin Galinha Caipira', description: 'Macarrão instantâneo', price: 5.00, image: 'https://tse4.mm.bing.net/th/id/OIP.a99fAHOEXwyzWce4NcUZWQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Mercearia', availability: true, unit: 'unidade' },
+  { id: '28', name: 'Nissin Carne', description: 'Macarrão instantâneo', price: 5.00, image: 'https://cf.shopee.com.br/file/4812cbd98bd2be6482165dd540a3348e_tn', category: 'Mercearia', availability: true, unit: 'unidade' },
+  { id: '29', name: 'Sardinha Palmeira', description: '125g', price: 7.38, image: 'https://tse3.mm.bing.net/th/id/OIP.teJ4aR-mDoYibBDxTv-saQHaF0?r=0&rs=1&pid=ImgDetMain&o=7&rm=3', category: 'Mercearia', availability: true, unit: 'unidade' }
 ];
 
 export const initialSettings = {
